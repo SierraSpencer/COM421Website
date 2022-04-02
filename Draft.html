@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sierra's Draft Website</title>
+		<!-- Creates the ability to split page -->
+		<style>
+			.column 
+			{
+				float: left;
+				width: 33.33%;
+			}
+
+			/* Clear floats after the columns */
+			.row:after 
+			{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			<!-- Source From: https://www.w3schools.com/howto/howto_css_three_columns.asp -->
+		</style>
+		<!-- style to create vertical lines -->
+		<style>
+			.vertical 
+			{
+				border-left: 2px solid black;
+				height: 522px;
+				position:absolute;
+				left: 33.33%;
+			}
+			<!--Source from: https://www.geeksforgeeks.org/how-to-make-a-vertical-line-using-html/ -->
+		</style>
+		<style>
+			.vertical2
+			{
+				border-left: 2px solid black;
+				height: 522px;
+				position:absolute;
+				left: 66.4%;
+			}
+		</style>
+	</head>
+	<body style="background-color:#58B09C;">
+		<div id="page">
+			<h1 style="color:white;"><center style="background-color:#58B09C;">COM 421 - Draft Website</center></h1>
+			<!-- Horizontal Line -->
+			<hr color = "#000000;" size="5"></hr>
+			<!-- Left Side(Resume) -->
+			<div class="column" style="background-color:#2D2D4E;">
+				<h2 style="color:white;"><center>Resume</center></h2>
+				<p><center style="color:white;"> Click the Icon to Download my Resume!</center></p>
+				<!-- Download Link Attached to Pic -->
+				<a href="file:///C:/Users/Compu/Documents/NewResume.pdf" download>
+					<p style="text-align:center;">
+						<!-- Picture Credit: https://www.freeiconspng.com/img/19036 - Drawing Icon Resume -->
+						<img src="file:///C:/Users/Compu/Documents/ResumePic.png" width="300" height="400" alt="ResumeClipArt">
+					</p>						
+				</a>
+			</div>
+			<!-- Vertical Line -->
+			<div class = "vertical2"></div>
+			<!-- Middle Section(About Me)-->
+			<div class="column" style="background-color:#4A4E69;">
+				<h2 style="color:white;"><center>About Me</center></h2>
+				<!--Add Link to Second Page with information About Me (ect. projects, future ideas, likes and dislikes) -->
+				<p><center style="color:white;">Click the Icon to Learn About Me!</center></p>
+				<!-- Add new webpage -->
+				<p><a href="http://sierraspencer.com/aboutMe/" target="_self" style="color:white;">Link to page 2</a></p>
+				<p style="text-align:center;">
+					<!-- Picture Credit: https://www.freeiconspng.com/img/1682 - Person Icon -->
+					<img src="file:///C:/Users/Compu/Documents/Person.png" width="300" height="400" alt="PersonClipArt">
+				</p>
+			</div>
+			<!-- Vertical Line -->
+			<div class = "vertical"></div>
+			<!-- Right Side (Cover Letter)-->
+			<div class="column" style="background-color:#9A8C98;">
+				<h2 style="color:white;"><center>Cover Letter</center></h2>
+				<p><center style="color:white;">Click the Icon to Download my Cover Letter!</center></p>
+				<p style="text-align:center;">
+					<!-- Picture Credit: https://thenounproject.com/icon/document-150024/ -->
+					<img src="file:///C:/Users/Compu/Documents/CoverLetter.png" width="350" height="400" alt="PersonClipArt">
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
