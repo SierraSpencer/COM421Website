@@ -2,10 +2,80 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Sierra's Draft Website</title>
+		<title>Sierra's About</title>
+		<!--<link rel="stylesheet" href="stylesWebsite.css" />-->
+		<!-- Creates the ability to split page -->
+		<style>
+			.column 
+			{
+				float: left;
+				width: 33.33%;
+			}
+		</style>
+		<style>
+			.profile img
+			{
+				width: 125px;
+				height: 150px;
+				border-radius: 50%;
+				margin: 0 auto;
+			}
+			<!-- Source From: https://dev.to/code_mystery/sidebar-menu-using-html-and-css-o49 -->
+		</style>
 	</head>
 	<body style="background-color:#4A4E69;">
-		<div id="page">
+		<div id="page2">
+			<h2 style="color:white;"><center>About Me</center></h2>
+			<!-- Horizontal Line -->
+			<hr style="height:2px; width:50%; border-width:0; color:white; background-color:white">
+			<!--Left Column(Pictures)-->
+			<div class="column">
+				<div class="profile" style="text-align:center;">
+					<p><center><img src="f.Pride.png" width="300" height="400" alt="PridePic"></center></p>
+				</div>
+				<br>
+				<div class="profile" style="text-align:center;">
+					<p><center><img src=".Convention.jpg" width="500" height="400" alt="ConventionPic"></center></p>
+				</div>
+				<br>
+				<div class="profile" style="text-align:center;">
+					<p><center><img src=".SelfieOne.jpg" width="300" height="400" alt="SelfieOnePic"></center></p>
+				</div>
+			</div>
+			
+			<!--Center Column(Text)-->
+			<div class="column">
+				<div class="Information" style="text-align:center;">
+					<h3 style="color:white;">General Info</h3>
+					<p style="color:white;">I'm 18 years old and apart of the LGBTQ+ Community. I dress goth outside of school and enjoy going to 
+					conventions with my friends. I'm a freshmen in college. I love animals, computers and space!</p>
+					<h3 style="color:white;">My Favorite Acitivites</h3>
+					<p style="color:white;"><b>I enjoy watching Anime!</b></p>
+					<p style="color:white;">My top five favorites are: The Rising Of The Shield Hero, Darling in the FRANXX,  
+					Wandering Witch: The Journey of Elaina, The Ancient Magus' Bride, and That Time I Got Reincarnated As A Slime</p>
+					<p style="color:white;"><b>I play a lot of different kinds of Games!</b></p>
+					<p style="color:white;">My top favorites are: Minecraft, Deep Rock Galatica, CS:GO, Borderlands, and Risk of Rain</p>
+					<h3 style="color:white;">My Projects</h3>
+					<p style="color:white;">I'm currently working towards getting a degree in Computer Science! This is to eventually get a job 
+					in Software Engineering.</p>
+				</div>
+			</div>
+			<!--Right Column(Pictures)-->
+			<div class="column">
+				<div class="profile" style="text-align:center;">
+					<!--Picture Credit: https://www.theverge.com/2019/8/16/20752233/best-anime-2019-netflix-amazon-hulu-crunchyroll-hidive-funimation-streaming-recommendations -->
+					<p><center><img src="..jpg" width="300" height="400" alt="AnimePic"></center></p>
+				</div>
+				<br>
+				<div class="profile" style="text-align:center;">
+					<p><center><img src=".SelfieTwo.jpg" width="300" height="400" alt="SelfieTwoPic"></center></p>
+				</div>
+				<br>
+				<div class="profile" style="text-align:center;">
+					<!--Picture Credit: https://store.epicgames.com/en-US/news/epic-games-store-update -->
+					<p><center><img src=".Games.jpg" width="300" height="400" alt="GamesPic"></center></p>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

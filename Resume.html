@@ -2,19 +2,113 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Sierra's Draft Website</title>
+		<title>Sierra's Resume</title>
+		<style>
+			.column 
+			{
+				float: left;
+			}
+		</style>
+		<style>
+			.left 
+			{
+				width: 25%;
+			}
+		</style>
+		<style>
+			.right 
+			{
+				width: 75%;
+			}
+		</style>
+		<style>
+			.profile img
+			{
+				width: 125px;
+				height: 150px;
+				border-radius: 50%;
+				margin: 0 auto;
+			}
+			<!-- Source From: https://dev.to/code_mystery/sidebar-menu-using-html-and-css-o49 -->
+		</style>
 	</head>
 	<body style="background-color:#2D2D4E;">
-		<h2 style="color:white;"><center>Resume</center></h2>
-		<p><center style="color:white;"> Click the Icon to Download my Resume!</center></p>
-		<div id="page">
-			<!-- Download Link Attached to Pic -->
-			<a href="file:///C:/Users/Compu/Documents/NewResume.pdf" download>
-				<p style="text-align:center;">
-					<!-- Picture Credit: https://www.freeiconspng.com/img/19036 - Drawing Icon Resume -->
-					<img src="file:///C:/Users/Compu/Documents/ResumePic.png" width="300" height="400" alt="ResumeClipArt">
-				</p>						
-			</a>
+		<div id="page3">
+			<h1 style="color:white;"><center>Resume</center></h1>
+			<!-- Horizontal Line -->
+			<hr style="height:2px; width:50%; border-width:0; color:white; background-color:white">
+			<!--Left Side(Profile)-->
+			<div class="column left">
+				<div class="profile" style="text-align:center;">
+					<p><center><img src=".ProfilePic.png" width="300" height="400" alt="ProfilePic"></center></p>
+				</div>
+				<div class="Information" style="text-align:center;">
+					<h3 style="color:white;">Sierra Spencer</h3>
+					<br>
+					<p style="color:white;">Chicago, IL | 60616</p>
+					<p style="color:white;">(702) 358-1713</p>
+					<p style="color:white;">sierrapspencer@gmail.com</p>
+					<br>
+					<p style="color:white;">Click the Icon to Download my Resume!</p>
+					<br>
+					<!-- Download Link Attached to Pic -->
+					<a href=".NewResume (2).pdf" download>
+						<p>
+							<!-- Picture Credit: https://www.freeiconspng.com/img/19036 - Drawing Icon Resume -->
+							<img src=".Download.png" width="200" height="200" alt="DownloadClipArt">
+						</p>						
+					</a>
+				</div>
+			</div>
+			<div class="column right">
+				<div class="Objective" style="text-align:center;">
+					<h3 style="color:white;">My Objective</h3>
+					<p style="color:white;">Hardworking and resourceful Computer Science student seeking a part-time position and looking forward to 
+					gaining work experience by performing duties assigned.</p>
+				</div>
+				<br>
+				<div class="Education" style="text-align:center;">
+					<h3 style="color:white;">My Education</h3>
+					<h4 style="color:white;">Full-Time Student | Illinois Institute of Technology (IIT)</h4>
+					<p style="color:white;"><b>2021 - Present | </b>Graduating 2025 | Bachelor of Science in Computer Science</p>
+					<h4 style="color:white;">Graduated | Advanced Technologies Academy (A-TECH)</h4>
+					<p style="color:white;"><b>2017 – 2021 | </b>4.738 GPA (weighted) - Computer Science Major</p>
+				</div>
+				<br>
+				<div class="Experience" style="text-align:center;">
+					<h3 style="color:white;">My Experience</h3>
+					<h4 style="color:white;">Usher and Ticketer | The Chicago Theatre - Madison Square Garden</h4>
+					<p style="color:white;"><b>12/2021  - Present | </b>Assists and interacts with customers on a daily basis assists with talking to 
+					customers and taking customers to their seats.</p>
+					<h4 style="color:white;">Courtesy Clerk | Sprouts Farmers Market</h4>
+					<p style="color:white;"><b>05/2020 – 10/2020 | </b>Assisted and interacted with customers when needed, assisted with bagging items for 
+					customers. Stocked items on shelves, cleaned and swept the floors of the building, and collected then sanitized carts from the 
+					parking lot.</p>
+				</div>
+				<br>
+				<div class="Skills" style="text-align:center;">
+					<h3 style="color:white;">My Skills</h3>
+					<p style="color:white;"><b>Basic knowledge of programming languages: </b>JavaScript, Python 3, C++, C#, HTML, SQL</p>
+					<p style="color:white;"><b>Extensive knowledge and usage of: </b>Java, Google Docs, Google Spreadsheets, and Google Powerpoint</p>
+				</div>
+				<br>
+				<div class="Leadership" style="text-align:center;">
+					<h3 style="color:white;">My Past Leadership Roles</h3>
+					<p style="color:white;"><b>August 2019 - May 2021: </b>Ambassador of highschool</p>
+					<p style="color:white;"><b>September 2019 - May 2021: </b>Treasurer and Secretary of high school’s Gay-Straight Alliance</p>
+					<p style="color:white;"><b>September 2018 - May 2021: </b>President and Creator of high school’s Artificial Intelligence club</p>
+				</div>
+				<br>
+				<div class="Awards" style="text-align:center;">
+					<h3 style="color:white;">My Awards / Certificates</h3>
+					<p style="color:white;"><b>April 2020 - </b>Winner of the Aspirations Award, given by NCWIT/AiC</p>
+					<p style="color:white;"><b>July 2020 - </b>AP Seminar and Research Certificate, given by CollegeBoard</p>
+					<p style="color:white;"><b>July 2020 - </b>AP Scholar Award, given by CollegeBoard</p>
+					<p style="color:white;"><b>Feb 2021 - </b>Winner of the Aspirations Award, given by NCWIT/AiC</p>
+					<p style="color:white;"><b>May 2021 - </b>Certificate in Java Basics</p>
+					<p style="color:white;"><b>September 2021 - </b>Certificate in ArcGIS Online Basics</p>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
